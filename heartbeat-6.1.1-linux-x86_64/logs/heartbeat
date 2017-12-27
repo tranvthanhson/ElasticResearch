@@ -1,0 +1,18 @@
+2017-12-26T13:17:50+07:00 INFO Home path: [/home/son/Desktop/Projects/heartbeat-6.1.1-linux-x86_64] Config path: [/home/son/Desktop/Projects/heartbeat-6.1.1-linux-x86_64] Data path: [/home/son/Desktop/Projects/heartbeat-6.1.1-linux-x86_64/data] Logs path: [/home/son/Desktop/Projects/heartbeat-6.1.1-linux-x86_64/logs]
+2017-12-26T13:17:50+07:00 INFO Metrics logging every 30s
+2017-12-26T13:17:50+07:00 INFO Beat UUID: 46310a3e-50a8-441f-9ab4-724779566ce8
+2017-12-26T13:17:50+07:00 INFO Setup Beat: heartbeat; Version: 6.1.1
+2017-12-26T13:17:50+07:00 INFO Elasticsearch url: http://localhost:9200
+2017-12-26T13:17:50+07:00 INFO Beat name: jarvis
+2017-12-26T13:17:50+07:00 WARN Beta: Heartbeat is beta software
+2017-12-26T13:17:50+07:00 INFO Select (active) monitor icmp
+2017-12-26T13:17:50+07:00 INFO Select (active) monitor tcp
+2017-12-26T13:17:50+07:00 INFO IPv4 ICMP not supported: listen ip4:icmp : socket: operation not permitted
+2017-12-26T13:17:50+07:00 INFO IPv6 ICMP not supported: listen ip6:ipv6-icmp : socket: operation not permitted
+2017-12-26T13:17:50+07:00 ERR  failed to load monitor tasks: failed to initiate IPv4 support when initializing monitor icmp(0)
+2017-12-26T13:17:50+07:00 INFO heartbeat start running.
+2017-12-26T13:17:50+07:00 INFO heartbeat is running! Hit CTRL-C to stop it.
+2017-12-26T13:17:51+07:00 INFO Shutting down.
+2017-12-26T13:17:51+07:00 INFO Total non-zero values:  beat.info.uptime.ms=1678 beat.memstats.gc_next=4194304 beat.memstats.memory_alloc=1548848 beat.memstats.memory_total=3432592 libbeat.config.module.running=0 libbeat.output.type=elasticsearch libbeat.pipeline.clients=1 libbeat.pipeline.events.active=0
+2017-12-26T13:17:51+07:00 INFO Uptime: 1.678472896s
+2017-12-26T13:17:51+07:00 INFO heartbeat stopped.
