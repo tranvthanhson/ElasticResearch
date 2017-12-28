@@ -18,15 +18,17 @@ filebeat.prospectors:
 # you can use different prospectors for various configurations.
 # Below are the prospector specific configurations.
 
-- type: log
+  - type: log
 
-  # Change to true to enable this prospector configuration.
-  enabled: false
+    # Change to true to enable this prospector configuration.
+    enabled: true
 
-  # Paths that should be crawled and fetched. Glob based paths.
-  paths:
-    - /var/log/*.log
-    #- c:\programdata\elasticsearch\logs\*
+    # Paths that should be crawled and fetched. Glob based paths.
+    paths:
+      # - /var/log/kern.log
+      - /home/son/Desktop/CallingChatV2/ElasticResearch/filebeat-6.1.1-linux-x86_64/LogExam.log
+    # - /home/son/Desktop/CallingChatV2/cc2-backend/ELKLog.log
+    # - c:\programdata\elasticsearch\logs\*
 
   # Exclude lines. A list of regular expressions to match. It drops the lines that are
   # matching any regular expression from the list.
@@ -114,8 +116,8 @@ setup.template.settings:
 
 # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
 # This requires a Kibana endpoint configuration.
-setup.kibana:
-  host: "localhost:5601"
+# setup.kibana:
+
   # Kibana Host
   # Scheme and port can be left out and will be set to the default (http and 5601)
   # In case you specify and additional path, the scheme is required: http://localhost:5601/path

@@ -1,4 +1,4 @@
-chmod 777 heartbeat.yml
-sudo chown root heartbeat.yml
-sudo chmod go-w /home/son/Desktop/CallingChatV2/heartbeat-6.1.1-linux-x86_64/heartbeat.yml
-sudo chown $USER heartbeat.yml
+sudo chmod 777 filebeat.yml
+sudo chown root filebeat.yml (run)
+sudo chmod go-w filebeat.yml
+sudo chown $USER filebeat.yml (save)
